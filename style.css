@@ -33,7 +33,7 @@ header {
 main {
     background-color: var(--white);
     padding: 2rem;
-    border-radius: 1.5625rem 1.5625rem 0 0;
+    border-radius: 1.5625rem 1.5625rem ;
 }
 
 .conta,
@@ -73,12 +73,12 @@ main {
 }
 
 .conta input::placeholder,
-.pessoas input::placeholder{
+.pessoas input::placeholder {
     color: var(--green-300);
 }
 
 .conta:has(input:focus) div,
-.conta:has(input:hover) div,
+.conta:has(input:hover) div, 
 .pessoas:has(input:focus) .input-box, 
 .pessoas:has(input:hover) .input-box,
 .gorjeta #outra:focus, 
@@ -240,3 +240,4 @@ outline: 2px solid var(--danger);
     .resultados div > strong {
         font-size: 3rem;
     }
+}
